@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<html ng-app="app">
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/ngDialog/js/ngDialog.min.js"></script>
+    <script type="text/javascript" src="bower_components/ngDialog/js/ngDialog.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body ng-controller="Controller">
+        <div id="jogo">
+            <div class="linha">
+                <div ng-click="click('casa1')" class="casa" ><span id="casa1"> </span></div>
+                <div ng-click="click('casa2')" class="casa"><span id="casa2"> </span></div>
+                <div ng-click="click('casa3')" class="casa"><span id="casa3"> </span></div>
+            </div>
+            <div class="linha">
+                <div ng-click="click('casa4')" class="casa" ><span id="casa4"> </span></div>
+                <div ng-click="click('casa5')" class="casa" ><span id="casa5"> </span></div>
+                <div ng-click="click('casa6')" class="casa" ><span id="casa6"> </span></div>
+            </div>
+            <div class="linha">
+                <div ng-click="click('casa7')" class="casa" ><span id="casa7"> </span></div>
+                <div ng-click="click('casa8')" class="casa" ><span id="casa8"> </span></div>
+                <div ng-click="click('casa9')" class="casa" ><span id="casa9"> </span></div>
+            </div>
+        </div>
+        <div id="resultado"></div>
+</body>
+</html>

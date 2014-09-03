@@ -1,0 +1,41 @@
+#jogo{
+    width:603px;
+    height:610px;
+    border:solid 3px;
+    background: rgb(89, 136, 196);
+    border-radius: 50px;
+}
+ 
+.linha{
+    height:200px;
+    border-bottom:solid 4px;
+    border-radius: 50px;
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+    border-radius: 50px;
+}
+.bolinha{
+    border: solid 10px #fff;
+    height: 22%;
+    width: 11.5%;
+    border-radius: 160px;
+    position: fixed;
+}
+.xix{
+    height: 22%;
+    width: 11.5%;
+    border-radius: 160px;
+    position: fixed;
+}
+
+.xis:after{
+    content: 'X';
+    font-size: 175px;
+    padding: 34px;
+    font-family: sans-serif;
+};
